@@ -1,0 +1,171 @@
+body{
+    font-family: 'Montserrat';
+}
+#title{
+  background-color: #ff4c68;
+}
+/*headings*/
+.big{
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 900px;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.sec-heading{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "montserrat";
+  font-weight: bold;
+  font-size:3rem;
+  line-height: 1.5;
+}
+/*pricing section */
+.pricetext{
+  font-size:3rem;
+  line-height:1.5rem;
+}
+/* testimonial*/
+.testimonialtext{
+  font-size:3rem;
+  line-height:3.5rem;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding:3% 15% 7%;
+}
+/*photos*/
+.phone{
+  transform: rotate(25deg);
+  width:60%;
+  right:30%;
+}
+.testimonial{
+  width:15%;
+  border-radius:100%;
+  margin:20px;
+}
+.navbar-brand{
+  font-family: 'ubuntu';
+  font-size: 2.5rem;
+  font-weight:bold;
+  padding-bottom:4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: 'montserrat-light';
+  font-size: 20px;
+}
+.button1{
+  margin:8% 3% 5% 0;
+}
+.button{
+  margin:3% 3% 5% 0;
+}
+
+h3{
+  font-family: 'montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#features{
+  text-align: center;
+  margin-bottom: 8rem;
+  padding:7% 15%;
+  background-color: #fff;
+}
+@media (min-width:900px) {
+  .phone{
+    position:absolute;
+  }
+  #features{
+    position:relative;
+  }
+}
+@media (max-width:900px) {
+  .phone{
+    transform: rotate(0deg);
+  }
+  .hello{
+    text-align: center;
+  }
+}
+p{
+  width:50%;
+  color:grey;
+  font-family: 'montserrat-light';
+  margin: auto;
+}
+.fas{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color:#ff4c68;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+h2{
+  font-family: "montserrat";
+  font-weight: bold;
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+#press{
+  padding-bottom:3%;
+  text-align:center;
+  background-color:#ef8172;
+}
+.logo{
+  width:15%;
+  padding: 0 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.card{
+ padding: 0 5px;
+}
+#pricing{
+  padding:100px;
+}
+.row{
+  padding-top:15px;
+}
+.btn-block{
+  margin-top: 40px;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.foot{
+  font-family:'montserrat';
+  color: #fff;
+  padding-top: 50px;
+  font-weight:900px;
+  width:35%;
+  margin:auto;
+  line-height: 3rem;
+}
+.feet{
+  text-align: center;
+}
+.social-media{
+  color: black;
+  padding:40px 40px 20px;
+}
+#footer{
+  text-align: center;
+  color: grey;
+}
